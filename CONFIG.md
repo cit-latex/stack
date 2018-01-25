@@ -22,7 +22,7 @@
 	PRIMARY KEY (student_id)
 );
 > grant all privileges on studentapp.* to 'student'@'%' identified by 'student@1';
-
+> flush privileges;
 ```
 
 ## 2. Configure Tomcat 
